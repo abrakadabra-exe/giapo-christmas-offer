@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            background: black; /* Optional: black background if image doesn't fill screen */
+        }
+        img {
+            width: 100vw;
+            height: 100vh;
+            object-fit: contain; /* Or 'cover' to fill screen without distortion */
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://imgur.com/a/Ybas2dT" alt="Your image">
+</body>
+</html>
